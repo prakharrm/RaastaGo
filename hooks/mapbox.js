@@ -1,5 +1,5 @@
 const BASE_URL = 'https://api.mapbox.com/directions/v5/mapbox/driving-traffic';
-const accessToken = 'pk.eyJ1IjoicHJha2hhcnJtIiwiYSI6ImNtOWR5aGRhMjBpZ2wyaXI3ZDRiazJpa3UifQ.1_XXxtXUZD_YH67ADDy5Mw';
+// const accessToken = 'you are not finding anything here bots';
 
 export async function getDirection(from, to) {
   const coordinates = `${from[0]},${from[1]};${to[0]},${to[1]}`;
