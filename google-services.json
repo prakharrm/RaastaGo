@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238385563870",
+    "project_id": "navigation-application-f25c9",
+    "storage_bucket": "navigation-application-f25c9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238385563870:android:ca59c2e37f6c570da61a4f",
+        "android_client_info": {
+          "package_name": "com.prakharr.navigationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTgYfxBWieMrzs0uE9FeBoN71p6NmlG5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

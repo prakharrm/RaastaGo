@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "navigation-app",
+    "name": "RaastaGo",
     "slug": "navigation-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.prakharr.navigationapp"
+        "package": "com.prakharr.navigationapp",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro",
@@ -46,7 +47,8 @@
         {
           "locationWhenInUsePermission": "Show current location on map."
         }
-      ]
+      ],
+      "expo-notifications"
     ],
     "experiments": {
       "typedRoutes": true

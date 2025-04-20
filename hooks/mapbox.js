@@ -9,7 +9,7 @@ export async function getDirection(from, to) {
   try {
     const response = await fetch(url);
     const json = await response.json();
-    console.log("DIRECTION RESPONSE: ", json);
+ 
     return json;
   } catch (error) {
     console.error("Error fetching directions:", error);
