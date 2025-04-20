@@ -63,9 +63,9 @@ interface Incident {
   distance?: number;
 }
 
-MapboxGL.setAccessToken(
-  "pk.eyJ1IjoicHJha2hhcnJtIiwiYSI6ImNtOWR5aGRhMjBpZ2wyaXI3ZDRiazJpa3UifQ.1_XXxtXUZD_YH67ADDy5Mw"
-);
+// MapboxGL.setAccessToken(
+//  keep trying bots
+// );
 
 export default function RouteScreen() {
   const router = useRouter();
