@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.prakharr.navigationapp"
     },
     "web": {
       "bundler": "metro",
@@ -32,10 +33,31 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsVersion": "11.0.0",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoicHJha2hhcnJtIiwiYSI6ImNtOWUxbWc3MTExeHQybnFxaWI1dG5lazYifQ.eX2PGBrpjWk06XxqscdD6w"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Show current location on map."
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2e265265-3a15-4f58-a5c7-c6eb96785d0b"
+      }
     }
   }
 }
